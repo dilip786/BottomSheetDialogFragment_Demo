@@ -5,56 +5,63 @@
     android:orientation="vertical"
     android:padding="15dp">
 
-
     <TextView
         android:id="@+id/tvFirst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:drawableLeft="@drawable/my_profile_two"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="My Profile" />
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="@string/my_profile"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvSecondView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/history_icon"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="My Orders" />
-
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="@string/my_orders"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvThirdView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/add_address"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="Add address" />
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="@string/add_address"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvFourthView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/share"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="Share app" />
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="@string/share_app"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvFifthView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/logout"
-        android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:text="Logout" />
+        android:drawablePadding="15dp"
+        android:padding="20dp"
+        android:text="@string/logout"
+        android:textSize="18sp" />
 
 </LinearLayout>

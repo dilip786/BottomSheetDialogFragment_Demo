@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         title ="BottomSheet Dialog"
         textView.setOnClickListener {
-
             BottomSheetDialog().show(supportFragmentManager, "MainActivity")
         }
 
